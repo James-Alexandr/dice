@@ -26,11 +26,11 @@ if (ramdonNumber1 > ramdonNumber2 ){
 document.querySelector("h1").innerHTML = "Player 1 wins!";
 }
 
-if (ramdonNumber1 < ramdonNumber2 ){
+else if (ramdonNumber1 < ramdonNumber2 ){
   document.querySelector("h1").innerHTML = "Player 2 wins!";
 }
 
-if (ramdonNumber1 == ramdonNumber2 ){
+else (ramdonNumber1 == ramdonNumber2 ){
   document.querySelector("h1").innerHTML = "It is a Draw!";
 
 }
