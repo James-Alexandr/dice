@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Dicee</title>
 
-    <link rel="stylesheet" href="CSS/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <title>Dicee</title>
 
-  </head>
-  <body>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
 
-    <div class="container">
-      <h1>Refresh Me</h1>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-      <div class="dice">
-        <p>Player 1</p>
-        <img class="img1" src="images/dice5.png">
-      </div>
+<body>
 
-      <div class="dice">
-        <p>Player 2</p>
-        <img class="img2" src="images/dice2.png">
-      </div>
+  <div class="container">
+    <h1>Refresh Me</h1>
 
+    <div class="dice">
+      <p>Player 1</p>
+      <img class="img1" src="images/dice5.png">
     </div>
 
-<script src="js/index.js" charset="utf-8"></script>
-  </body>
+    <div class="dice">
+      <p>Player 2</p>
+      <img class="img2" src="images/dice2.png">
+    </div>
+    <br>
+    <br>
+    <button class="btn btn-lg btn-light" onclick="rollDice()">Play</button>
+  </div>
 
-  <footer>
-   James
-  </footer>
+
+
+  <script src="js/index.js" charset="utf-8"></script>
+</body>
+
+<footer>
+  James
+</footer>
+
 </html>
